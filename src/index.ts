@@ -16,5 +16,4 @@ mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true, aut
   await ProjectModel.create({
     users: [],
   })
-
 })
